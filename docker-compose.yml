@@ -24,9 +24,9 @@ services:
     volumes:
       - nextcloud-public:/var/www/html:z
     environment:
-      - VIRTUAL_HOST= nextcloud.sivit.com.pl
-      - LETSENCRYPT_HOST= nextcloud.sivit.com.pl
-      - LETSENCRYPT_EMAIL= siwakkarol@gmail.com
+      - VIRTUAL_HOST=nextcloud.sivit.com.pl
+      - LETSENCRYPT_HOST=nextcloud.sivit.com.pl
+      - LETSENCRYPT_EMAIL=siwakkarol@gmail.com
       - MYSQL_HOST=db
       - REDIS_HOST=redis
     env_file:
